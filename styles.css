@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 245, 232);
+    font-size: 20px;
+    }
+.heading{
+    background-color: rgb(73, 165, 134);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+ul li {
+    display: inline;
+    padding: 1px;
+    margin-left: 10px;
+    
+}
+ul li+li::before{
+    content: '>'
+}
+ul li a:hover{
+    text-decoration: none;
+    color: brown;
+    margin: 10px;
+}
+section {
+    border: 3px red solid;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.transparent{
+    background-color: rgba(244, 245, 244, 0.815) ;
+    font-size: 14px;
+    padding: 3px;
+    color: mediumblue;
+}
+
+.trans{
+    background-color: rgba(244, 245, 244, 0.815) ;
+    font-size: 14px;
+    padding: 3px;
+}
+
+[href]{
+    text-decoration: none;
+    color: #000;
+}
+
+#literature{
+    width: 50%;
+    line-height: 30px;
+}
+
+[href]:hover{
+    text-decoration: underline;
+    content: '#';
+}
+
+tr,
+td,
+th,
+thead{
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+
+table{
+    border: 1px solid #000;
+}
+
+.live-black{
+    background-color: #000;
+}
+
+.live-white{
+    background-color: #fff;
+}
+
+.live-fuchsia{
+    background-color: 	#ff00ff;
+}
+
+.live-orange{
+    background-color: #ffa500;
+}
+
+.live-maroon{
+    background-color: #800000;
+}
+
+.live-goldrod{
+    background-color: #daa520;
+}
+
+.live-indiared{
+    background-color: #cd5c5c;
+}
+
+.live-khaki{
+    background-color: #f0e68c;
+}
+
+.live-lawngreen{
+    background-color: #7cfc00;
+}
+
+.live-rebeccapurple{
+    background-color: #663399;
+}
+
+img[src*='33-335362_art-palette-no-background']{
+    height: 50px;
+    width: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.roboto .fontname{
+    font-family: Roboto;
+}
+
+.red-hat-mono .red {
+    font-family: 'Red Hat Mono';
+}
+
+.josefin-sans .jose{
+    font-family: 'Josefin Sans';
+}
+
+.libre-baskerville .libre{
+    font-family: 'Libre Baskerville';
+}
+
+.roboto .regular{
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.roboto .italic{
+    font-family: Roboto;
+    font-style: italic;
+}
+
+.roboto .bold{
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.red-hat-mono .regular{
+    font-family: 'Red Hat Mono';
+    font-style: normal;
+}
+
+.red-hat-mono .italic{
+    font-family: 'Red Hat Mono';
+    font-style: italic;
+}
+
+.red-hat-mono .bold{
+    font-family: 'Red Hat Mono';
+    font-weight: bold;
+}
+
+.josefin-sans .regular{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+}
+
+.josefin-sans .italic{
+    font-family: 'Josefin Sans';
+    font-style: italic;
+}
+
+.josefin-sans .bold{
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+}
+
+.libre-baskerville .regular{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+}
+
+.libre-baskerville .italic{
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+}
+
+.libre-baskerville .bold{
+    font-family: 'Libre Baskerville';
+    font-weight: bold;
+}
+
+#fonts {
+    display: flex;
+    flex-direction: column;
+}
+
+.paint,
+.letters,
+.text,
+.display{
+    font-family: 'Fredoka One';
+}
+footer{
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
